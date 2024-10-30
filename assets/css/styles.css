@@ -1,0 +1,60 @@
+#cf7mediapost-tab > a {
+  background-image: url('../images/mediapost-icon.ico');
+  background-size:16px 16px;
+  background-repeat: no-repeat;
+  background-position: 5px center;
+  padding-left: 25px !important;
+}
+.cf7mediapost h2 {
+    padding: 0
+}
+.cf7mediapost .alerta_erro,
+.cf7mediapost .alerta_aviso,
+.cf7mediapost .alerta_sucesso {
+    padding: 5px;
+    background: #dc3232;
+    color: #fff;
+}
+.cf7mediapost .alerta_aviso {
+    background-color: #ffb900;
+}
+.cf7mediapost .alerta_sucesso {
+    background-color: #46b450;
+}
+.cf7mediapost .accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.cf7mediapost .active, 
+.cf7mediapost .accordion:hover {
+    background-color: #ccc;
+}
+.cf7mediapost .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+.cf7mediapost h2 .rounded {
+    border-radius:50%;
+    background-color:#fff;
+    padding:5px 12px;
+    margin-right:10px;
+}
+.cf7mediapost h2 .rounded.success,
+.cf7mediapost h2 .rounded.warning {
+    background-color: #46b450;
+    color:#fff;
+}
+.cf7mediapost h2 .rounded.warning {
+    background-color: #ffb900;
+}
